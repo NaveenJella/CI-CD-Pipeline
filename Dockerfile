@@ -19,3 +19,5 @@ HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \
 
 # Start the app
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+
+
